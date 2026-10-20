@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/heterogeneous-soc/rtl/combinational/m1_combinational/decoder_2to4_tb_isim_beh.exe" -prj "/home/ise/heterogeneous-soc/rtl/combinational/m1_combinational/decoder_2to4_tb_beh.prj" "work.decoder_2to4_tb" 
