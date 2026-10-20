@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="m2_sequential.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter_4bit.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="counter_4bit.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="counter_4bit.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter_4bit_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter_4bit_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dff.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dff.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dff.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dff_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dff_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="reg_4bit.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="reg_4bit.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="reg_4bit.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="reg_4bit_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="reg_4bit_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seq_detector_1011.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="seq_detector_1011.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="seq_detector_1011.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seq_detector_1011_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="seq_detector_1011_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="seq_detector_1011_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seq_detector_1011_tb_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1792496867" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1792496867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792497815" xil_pn:in_ck="3477439574179022784" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792497815">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="counter_4bit.vhd"/>
+      <outfile xil_pn:name="counter_4bit_tb.vhd"/>
+      <outfile xil_pn:name="dff.vhd"/>
+      <outfile xil_pn:name="dff_tb.vhd"/>
+      <outfile xil_pn:name="reg_4bit.vhd"/>
+      <outfile xil_pn:name="reg_4bit_tb.vhd"/>
+      <outfile xil_pn:name="seq_detector_1011.vhd"/>
+      <outfile xil_pn:name="seq_detector_1011_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1792497824" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3708984871864258833" xil_pn:start_ts="1792497824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792497824" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4271859859646775661" xil_pn:start_ts="1792497824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792497737" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7001172896704727916" xil_pn:start_ts="1792497737">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792497824" xil_pn:in_ck="3477439574179022784" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1792497824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="counter_4bit.vhd"/>
+      <outfile xil_pn:name="counter_4bit_tb.vhd"/>
+      <outfile xil_pn:name="dff.vhd"/>
+      <outfile xil_pn:name="dff_tb.vhd"/>
+      <outfile xil_pn:name="reg_4bit.vhd"/>
+      <outfile xil_pn:name="reg_4bit_tb.vhd"/>
+      <outfile xil_pn:name="seq_detector_1011.vhd"/>
+      <outfile xil_pn:name="seq_detector_1011_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1792497826" xil_pn:in_ck="3477439574179022784" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2692988299008886206" xil_pn:start_ts="1792497824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="seq_detector_1011_tb_beh.prj"/>
+      <outfile xil_pn:name="seq_detector_1011_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1792497826" xil_pn:in_ck="868914869802741158" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7641006977033275349" xil_pn:start_ts="1792497826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="seq_detector_1011_tb_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

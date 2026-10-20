@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/heterogeneous-soc/rtl/sequential/m2_sequential/seq_detector_1011_tb_isim_beh.exe" -prj "/home/ise/heterogeneous-soc/rtl/sequential/m2_sequential/seq_detector_1011_tb_beh.prj" "work.seq_detector_1011_tb" 
