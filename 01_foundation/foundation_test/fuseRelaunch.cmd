@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/heterogeneous-soc/01_foundation/foundation_test/and_gate_tb_isim_beh.exe" -prj "/home/ise/heterogeneous-soc/01_foundation/foundation_test/and_gate_tb_beh.prj" "work.and_gate_tb" 
